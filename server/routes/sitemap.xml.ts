@@ -5,7 +5,7 @@ export default defineEventHandler(async (event) => {
   // Fetch all documents
   const docs = await serverQueryContent(event).find()
   const sitemap = new SitemapStream({
-    hostname: 'https://wiki.sencraft.top'
+    hostname: 'https://wiki.builders-guide.top'
   })
 
   for (const doc of docs) {

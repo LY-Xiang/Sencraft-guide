@@ -1,11 +1,11 @@
 <template>
   <article style="padding: 2rem;">
-    <title>🧭 SenCraft 指南</title>
+    <title>Builders Guide</title>
     <div class="grid-container" style="padding: 5vh 0;">
       <div style="width: 100%;">
         <ProseH1>
           <Title>
-            SenCraft 指南
+            Builders-guide
           </Title>
         </ProseH1>
       </div>
@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <Card image-url="https://i.111666.best/image/yaic38urPJV3lTmrTzIXTc.jpg"
+    <Card image-url="https://i.111666.best/imaGge/yaic38urPJV3lTmrTzIXTc.jpg"
       color="pink">
       <i style="font-size: 0.25em;">初来乍到可能感觉手足无措、不知道怎么开始玩</i>
       <CatalogLink to="/join/base#服务器地址">服务器IP</CatalogLink>
@@ -61,19 +61,6 @@
 
       <StartRead />
     </NuxtLink>
-    <div class="grid-container" style="padding: 5vh 0;">
-      <div>
-        <ProseH2>捐助</ProseH2>
-        <p>
-          欢迎大家对 SenCraft森世界服务器进行无偿捐赠，你的每次投喂都对森服的长久稳定运行有很大帮助！
-        </p>
-        <ProseA href="https://ifdian.net/a/HoShiNoMino">爱发点赞助 ↗</ProseA>
-      </div>
-      <div>
-        <ProseH2>爱发电赞助名单</ProseH2>
-        <Sponsors />
-      </div>
-    </div>
   </article>
 </template>
 

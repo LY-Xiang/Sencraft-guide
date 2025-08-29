@@ -2,7 +2,7 @@
   <div class="c">
       <p>
         旨在为每一位新手或者大佬提供尽可能完善的游玩参考✨📰，减少大家找教程的困难🤗。这是一个
-        <a href="https://github.com/Lala-0x3f/Sencraft-guide" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Lala-0x3f/Builders-guide" target="_blank" rel="noopener noreferrer">
           开源项目
         </a>
         ，欢迎一起编写📝。

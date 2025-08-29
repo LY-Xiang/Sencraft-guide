@@ -4,23 +4,13 @@ export default defineAppConfig({
     description: 'SenCraft 是一个公益的我的世界建筑服务器。森服指南宗旨为方便建筑师查询森各种工具，指令和解决疑难杂症',
     image: '/cover.png',
     socials: {
-      github: 'https://github.com/Lala-0x3f/SenCraft-guide',
-      ['qq']: {
-        label: 'QQ',
-        icon: 'simple-icons:tencentqq',
-        href: 'https://pd.qq.com/s/ao0mk068w'
-      },
-      ['SenCraft 公告板']: {
-        label: 'SenCraft 公告板',
-        icon: 'pepicons-pop:bulletin-notice',
-        href: 'https://www.SenCraft.top/'
-      }
+      github: 'https://github.com/Lala-0x3f/Builders-guide',
 
     },
     github: {
       dir: '/content',
       branch: 'master',
-      repo: 'SenCraft-guide',
+      repo: 'Builders-guide',
       owner: 'Lala-0x3f',
       edit: true
     },

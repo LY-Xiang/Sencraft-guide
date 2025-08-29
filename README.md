@@ -5,8 +5,8 @@ SenCraft指南是一个开源项目，旨在提供详细的SenCraft游戏指南�
 
 
 ```bash
-git clone https://github.com/Lala-0x3f/Sencraft-guide.git
-cd Sencraft-guide
+git clone https://github.com/Lala-0x3f/Builders-guide.git
+cd Builders-guide
 yarn install
 yarn dev
 ```

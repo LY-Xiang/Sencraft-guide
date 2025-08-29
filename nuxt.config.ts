@@ -14,7 +14,7 @@ export default defineNuxtConfig({
         {
           name: "keywords",
           content:
-            "Sencraft, SenCraft, 森世界, minecraft, 我的世界, 创造服, 建筑服, 原神, wiki, 百科, 指南, 创世神, help wiki, guide, 插件教程, SC, 下载, minecraft server, ezedits 教程,ezedits 插件, minecraft ezedits, ezedits mod",
+            "Builders-guide, 建筑指南, minecraft, 我的世界, 创造服, 建筑服, 原神, wiki, 百科, 指南, 创世神, help wiki, guide, 插件教程, BG, 下载, minecraft server, ezedits 教程,ezedits 插件, minecraft ezedits, ezedits mod",
         },
         { name: "twitter:image", content: "/cover.png" },
       ],
@@ -28,7 +28,7 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
   ],
   site: {
-    url: "https://wiki.sencraft.top",
+    url: "https://wiki.builders-guide.top",
   },
   typescript: {
     tsConfig: {
@@ -50,8 +50,8 @@ export default defineNuxtConfig({
   schemaOrg: {
     identity: {
       type: "Organization",
-      name: "SenCraft server",
-      logo: "https://wiki.sencraft.top/logo.svg",
+      name: "Builders-guide server",
+      logo: "https://wiki.builders-guide.top/logo.svg",
     },
   },
   content: {
