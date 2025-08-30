@@ -2,7 +2,7 @@
   <div class="logo">
     <SpeedInsights />
     <img src="/logo.svg">
-    <b>Sen</b><span>Craft </span>
+    <span>Builders guide </span>
   </div>
 </template>
 

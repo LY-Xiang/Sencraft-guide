@@ -1,11 +1,13 @@
 export default defineNuxtConfig({
   // https://github.com/nuxt-themes/docus
   routeRules: {
-    '/sponsors':{proxy: 'https://ifdian.net/api/creator/get-top-sponsors?user_id=cfa50e58bfd111ebb4e852540025c377'}
+    '/sponsors':{proxy: ''}
   },
+
   extends: "@nuxt-themes/docus",
   devtools: { enabled: true },
   css: ["~/assets/style.css"],
+
   app: {
     head: {
       charset: "utf-8",
@@ -20,6 +22,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   modules: [
     // Remove it if you don't use Plausible analytics
     // https://github.com/nuxt-modules/plausible
@@ -27,9 +30,11 @@ export default defineNuxtConfig({
     "nuxt-og-image",
     "nuxt-schema-org",
   ],
+
   site: {
     url: "https://wiki.builders-guide.top",
   },
+
   typescript: {
     tsConfig: {
       compilerOptions: {
@@ -37,6 +42,7 @@ export default defineNuxtConfig({
       },
     },
   },
+
   // routeRules: {
   //   "/*": { ssr: true },
   // },
@@ -46,6 +52,7 @@ export default defineNuxtConfig({
       routes: ["/","/sitemap.xml"],
     },
   },
+
   // ssr: true,
   schemaOrg: {
     identity: {
@@ -54,6 +61,7 @@ export default defineNuxtConfig({
       logo: "https://wiki.builders-guide.top/logo.svg",
     },
   },
+
   content: {
     highlight: {
       langs: [
@@ -67,5 +75,7 @@ export default defineNuxtConfig({
         `bash`,
       ]
     }
-  }
+  },
+
+  compatibilityDate: "2025-08-29"
 });

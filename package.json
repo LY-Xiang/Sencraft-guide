@@ -21,7 +21,7 @@
     "@types/node": "^20.8.2",
     "eslint": "^8.50.0",
     "nuxt": "^3.8.0",
-    "nuxt-og-image": "^5.1.9",
+    "nuxt-og-image": "^2.2.4",
     "nuxt-schema-org": "^3.3.3",
     "sitemap": "^7.1.1"
   },
